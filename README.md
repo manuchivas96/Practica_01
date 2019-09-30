@@ -1,6 +1,6 @@
 # Practica_01
 
-## Creacion de de una APi por medio de un administrador de Base de datos
+## Creacion de de una API por medio de un administrador de Base de datos
 ### Creación de una maquina virtual por en Microsoft Azure
 
 Para crear una máquina virtual es necesario tener una cuenta de Microsoft Azure en la que se registrará. 
@@ -17,7 +17,8 @@ Siguiendo la siguiente liga propuesta y hecha por el profesor Jacobo nuestra má
 
 
 
-## Describe your project
+## Actualización e instalación de paquetes: Serial console
+Consecuentemente se debe instalar y actualizar el índice de paquetes, NodoJS, NPM de NodeJS, el generador de aplicaciones Express y PostgreSQL, se mantiene algunas configuraciones y comandos de inicializar el proyecto
 
 You are currently viewing your project's **README** file. **_README_** files are like cover pages or elevator pitches for your project. They are written in plain text or [Markdown language](https://guides.github.com/features/mastering-markdown/), and usually include a paragraph describing the project, directions on how to use it, who authored it, and more.
 
