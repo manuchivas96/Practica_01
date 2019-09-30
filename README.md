@@ -9,7 +9,7 @@ Siguiendo la siguiente liga propuesta y hecha por el profesor Jacobo nuestra má
    * Public IP address: enable
    * Operating system: Linux (ubuntu 18.04)
    * Size: Standard D2s v3 (2 vcpus, 8 GiB memory)
-   <img width="1039" alt="rename_screenshot" src="./images/1.png">
+   <img width="1039" alt="rename_screenshot" src="./images/1.png" width= "800">
    
    
 
@@ -19,19 +19,19 @@ Siguiendo la siguiente liga propuesta y hecha por el profesor Jacobo nuestra má
 
 ## Actualización e instalación de paquetes: Serial console
 Consecuentemente se debe instalar y actualizar el índice de paquetes, **NodoJS**, **NPM de NodeJS**, **el generador de aplicaciones Express** y **PostgreSQL**, se mantiene algunas configuraciones y comandos de inicializar el proyecto
- <img width="1039" alt="rename_screenshot" src="./images/2.png">
+ <img width="1039" alt="rename_screenshot" src="./images/2.png" width= "800">
 
 
 ## Creacion de nueva carpeta
 
 Se hace la creación de dos carpetas una como **proyecto** y la otra con el nombre de **practica_01**, en ellas se crea un nuevo proyectos **_Express y sus dependencias_** 
- <img width="1039" alt="rename_screenshot" src="./images/3.png">
+ <img width="1039" alt="rename_screenshot" src="./images/3.png" width= "800">
 
 
 ## Creación de Base de Datos 
 ##
 Se necesita crear la raíz del proyecto con el nombre de **_queries.js_**
- <img width="1039" alt="rename_screenshot" src="./images/4.png">
+ <img width="1039" alt="rename_screenshot" src="./images/4.png" width= "800">
 
 
 
@@ -42,29 +42,43 @@ Se necesita crear la raíz del proyecto con el nombre de **_queries.js_**
 
 Utilizando la raíz del proyecto se hace la creación de un archivo que le damos el nombre de puppies.sql, se hacen algunas configuraciones, haciendo la creación de la base de datos **_puppies_** , así como también la creación de una tabla con los atributos  **_  ID, name, breed, age, sex _** y se hace la inserción de la una fila.
 
- <img width="1039" alt="rename_screenshot" src="./images/5.png">
+ <img width="1039" alt="rename_screenshot" src="./images/5.png" width= "800">
 
 
 ## Configuramos las ruras 
 Las configuraciones de rutas, se llaman desde postgres con la el comando **_ cd routes/ _** editando el archivo/routes/indes.js con el comando de superusuario **_  sudo nano index.js _**
 
+<img width="1039" alt="rename_screenshot" src="./images/5.png" width= "800">
 
 
 
 
 
 ## Utilizando el método GET
-Con el comando **_ http://23.100.21.187:3000/api/puppies _** para el método GET y el comando **_ http://localhost:3000/api/puppies/1 _** para el método GetSINGLE
+Con el comando **_ http://23.100.21.187:3000/api/puppies_** para el método GET y el comando **_http://localhost:3000/api/puppies/1_** para el método GetSINGLE
  
 
- ```
-http://23.100.21.187:3000/api/puppies
+                   ```
+                  http://23.100.21.187:3000/api/puppies
 
-{
-    "name": "Laily",
-    "breed": "blabla",
-    "age": 9,
-    "sex": "f"
-}
-```
+                  {
+                      "name": "Laily",
+                      "breed": "blabla",
+                      "age": 9,
+                      "sex": "f"
+                  }
+                  ```
+## Método PUT
+Con la utilización del **_ método PUT_** este nos ayuda a reemplazar y actualizar los recursos solicitados con la carga de entrada y salida constante ( lo que sube el archivo con atributos actualizados)
 
+
+                    ```
+                  http://23.100.21.187:3000/api/puppies/1
+
+                        {
+                        "name": "Hunter",
+                        "breed": "annoying",
+                        "age": 33,
+                        "sex": "m"
+                        }
+                    ```
