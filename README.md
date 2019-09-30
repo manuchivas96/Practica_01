@@ -56,9 +56,15 @@ Las configuraciones de rutas, se llaman desde postgres con la el comando **_ cd 
 ## Utilizando el método GET
 Con el comando **_ http://23.100.21.187:3000/api/puppies _** para el método GET y el comando **_ http://localhost:3000/api/puppies/1 _** para el método GetSINGLE
  
- 
- 
+
  ```
-<p>Hello World! I’m [username]. This is my website!</p>
+http://23.100.21.187:3000/api/puppies
+
+{
+    "name": "Laily",
+    "breed": "blabla",
+    "age": 9,
+    "sex": "f"
+}
 ```
 
