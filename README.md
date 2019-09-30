@@ -31,18 +31,18 @@ Se hace la creación de dos carpetas una como **proyecto** y la otra con el nomb
 ## Creación de Base de Datos 
 ##
 Se necesita crear la raíz del proyecto con el nombre de **_queries.js_**
- <img width="1039" alt="rename_screenshot" src="./images/4.png" width= "800">
 
+ <img width="1039" alt="rename_screenshot" src="./images/4.png" width= "800">
 
 
 **_Nota: Los siguientes archivos se deben instalar en postgres, es frecuente que se comata el error de querer instlarlos en el usuario de lo contrario si estas en el super usuario solo con el comando **_\q_**, y para entrar a Postgres con el comando **_$psql_** _**
 
 
-
+ <img width="1039" alt="rename_screenshot" src="./images/5.png" width= "800">
 
 Utilizando la raíz del proyecto se hace la creación de un archivo que le damos el nombre de puppies.sql, se hacen algunas configuraciones, haciendo la creación de la base de datos **_puppies_** , así como también la creación de una tabla con los atributos  **_  ID, name, breed, age, sex _** y se hace la inserción de la una fila.
 
- <img width="1039" alt="rename_screenshot" src="./images/5.png" width= "800">
+ <img width="1039" alt="rename_screenshot" src="./images/6.png" width= "800">
 
 
 ## Configuramos las ruras 
