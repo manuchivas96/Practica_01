@@ -3,7 +3,14 @@
 ## Creacion de de una APi por medio de un administrador de Base de datos
 ### Creación de una maquina virtual por en Microsoft Azure
 
-Para crear una máquina virtual es necesario tener una cuenta de Microsoft Azure en la que nos registraremos.
+Para crear una máquina virtual es necesario tener una cuenta de Microsoft Azure en la que se registrará. 
+Siguiendo la siguiente liga propuesta y hecha por el profesor Jacobo nuestra máquina virtual debe tener algunas características
+
+    Public IP address: enable
+    Operating system: Linux (ubuntu 18.04)
+    Size: Standard D2s v3 (2 vcpus, 8 GiB memory)
+
+
 [Ecosistema de un Administrador de Bases de datos y creación de una API](https://nbviewer.jupyter.org/github/JacoboGGLeon/abd_2020_1/blob/master/practica_01.ipynb#En-la-ra%C3%ADz-del-proyecto-crear-un-archivo-llamado-puppies.sql)
 
 
