@@ -9,7 +9,7 @@ Siguiendo la siguiente liga propuesta y hecha por el profesor Jacobo nuestra má
    * Public IP address: enable
    * Operating system: Linux (ubuntu 18.04)
    * Size: Standard D2s v3 (2 vcpus, 8 GiB memory)
-   <img width="1039" alt="rename_screenshot" src="https://user-images.githubusercontent.com/1.png">
+   <img width="1039" alt="rename_screenshot" src="./images/1.png">
    
    
 
