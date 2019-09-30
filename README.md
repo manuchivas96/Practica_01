@@ -48,7 +48,7 @@ Utilizando la raíz del proyecto se hace la creación de un archivo que le damos
 ## Configuramos las ruras 
 Las configuraciones de rutas, se llaman desde postgres con la el comando **_ cd routes/ _** editando el archivo/routes/indes.js con el comando de superusuario **_  sudo nano index.js _**
 
-<img width="1039" alt="rename_screenshot" src="./images/5.png" width= "800">
+<img width="1039" alt="rename_screenshot" src="./images/7.png" width= "400">
 
 
 
