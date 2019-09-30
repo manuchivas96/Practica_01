@@ -18,19 +18,24 @@ Siguiendo la siguiente liga propuesta y hecha por el profesor Jacobo nuestra má
 
 
 ## Actualización e instalación de paquetes: Serial console
-Consecuentemente se debe instalar y actualizar el índice de paquetes, NodoJS, NPM de NodeJS, el generador de aplicaciones Express y PostgreSQL, se mantiene algunas configuraciones y comandos de inicializar el proyecto
+Consecuentemente se debe instalar y actualizar el índice de paquetes, **NodoJS**, **NPM de NodeJS**, **el generador de aplicaciones Express** y **PostgreSQL**, se mantiene algunas configuraciones y comandos de inicializar el proyecto
+ <img width="1039" alt="rename_screenshot" src="./images/2.png">
 
-You are currently viewing your project's **README** file. **_README_** files are like cover pages or elevator pitches for your project. They are written in plain text or [Markdown language](https://guides.github.com/features/mastering-markdown/), and usually include a paragraph describing the project, directions on how to use it, who authored it, and more.
 
-[Learn more about READMEs](https://help.github.com/en/articles/about-readmes)
+## Creacion de nueva carpeta
 
-## Your first website
+Se hace la creación de dos carpetas una como **proyecto** y la otra con el nombre de **practica_01**, en ellas se crea un nuevo proyectos **_Express y sus dependencias_** 
+ <img width="1039" alt="rename_screenshot" src="./images/3.png">
 
-**GitHub Pages** is a free and easy way to create a website using the code that lives in your GitHub repositories. You can use GitHub Pages to build a portfolio of your work, create a personal website, or share a fun project that you coded with the world. GitHub Pages is automatically enabled in this repository, but when you create new repositories in the future, the steps to launch a GitHub Pages website will be slightly different.
 
-[Learn more about GitHub Pages](https://pages.github.com/)
+## Creación de Base de Datos 
+##
+Se necesita crear la raíz del proyecto con el nombre de **_queries.js_**
+ <img width="1039" alt="rename_screenshot" src="./images/4.png">
 
-## Rename this repository to publish your site
+
+
+**_Nota: Los siguientes archivos se deben instalar en postgres, es frecuente que se comata el error de querer instlarlos en el usuario de lo contrario si estas en el super usuario solo con el comando **_\q_**, y para entrar a Postgres con el comando **_$psql_** _**
 
 We've already set-up a GitHub Pages website for you, based on your personal username. This repository is called `hello-world`, but you'll rename it to: `username.github.io`, to match your website's URL address. If the first part of the repository doesn’t exactly match your username, it won’t work, so make sure to get it right.
 
